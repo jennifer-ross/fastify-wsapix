@@ -1,0 +1,40 @@
+{
+  "name": "fastify-wsapix",
+  "version": "1.0.0",
+  "description": "Basic WebSocket support for Fastify built on the wsapix library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap \"test.js\" && npm run typescript",
+    "typescript": "tsd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennifer2318/fastify-wsapix.git"
+  },
+  "keywords": [
+    "fastify",
+    "websocket",
+    "wsapix",
+    "ws"
+  ],
+  "author": "Jennifer Ross <cjennifer2318@gmail.com>",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jennifer2318/fastify-wsapix/issues"
+  },
+  "homepage": "https://github.com/jennifer2318/fastify-wsapix#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "eslint": "^5.14.1",
+    "fastify": "^4.0.0-rc.2",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.7.1",
+    "tap": "^12.5.3",
+    "tsd": "^0.20.0"
+  },
+  "dependencies": {
+    "fastify-plugin": "^1.5.0",
+    "wsapix": "^0.5.0"
+  }
+}
